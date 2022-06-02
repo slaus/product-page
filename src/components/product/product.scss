@@ -1,0 +1,171 @@
+.products__item {
+  padding: 25px;
+  border: 3px solid transparent;
+  transition: all .3s ease-in;
+  position: relative;
+
+  &__vendor {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: .85rem;
+    color: var(--grey);
+    display: none;
+  }
+
+  &__img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  &__chips {
+    display: flex;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: var(--white);
+
+    &__item {
+      padding: 2px 10px;
+      margin-right: 5px;
+      background: var(--red);
+      border-radius: 4px;
+
+      &__best {
+        background: var(--green);
+      }
+    }
+
+  }
+
+  &__subtitle {
+    margin-top: 5px;
+    font-size: .8rem;
+    color: var(--blue);
+  }
+
+  &__title {
+    font-size: 1.3rem;
+
+    a {
+      text-decoration: none;
+      color: var(--black);
+      transition: .3s ease-in;
+
+      &:hover {
+        color: var(--green-btn);
+        transition: .3s ease-out;
+      }
+    }
+  }
+
+  &__stars {
+    display: flex;
+
+    &__block {
+      margin-right: 10px;
+
+      i {
+        color: var(--yellow);
+        cursor: pointer;
+      }
+    }
+
+    &__title {
+      font-size: .8rem;
+      color: var(--grey);
+      cursor: pointer;
+    }
+  }
+
+  &__price {
+    margin-top: 10px;
+    font-size: .8rem;
+    color: var(--grey);
+
+    &__block {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-weight: 500;
+    }
+
+    &__total {
+      color: var(--red);
+      margin-right: 10px;
+      font-size: 1.4rem;
+    }
+
+    &__cashback {
+      width: fit-content;
+      padding: 2px 10px;
+      background: var(--yellow-light);
+      color: var(--black);
+      border-radius: 4px;
+      font-size: .8rem;
+    }
+
+    &__old {
+      margin-top: -10px;
+      color: var(--grey);
+      font-size: 1.1rem;
+      text-decoration: line-through;
+    }
+  }
+
+  &__buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+    .btn {
+
+      &-buy {
+        background: var(--green-btn);
+        color: var(--white);
+        padding: 5px 40px;
+        border-radius: 36px;
+        transition: .3s ease-in;
+
+        &:hover {
+          color: var(--white);
+          background: var(--grey-btn);
+          transition: .3s ease-out;
+        }
+      }
+
+      &-love {
+        background: transparent;
+        color: var(--grey-btn);
+        font-size: 1.5rem;
+        transition: .3s ease-in;
+
+        &:hover {
+          color: var(--green);
+          transition: .3s ease-out;
+        }
+      }
+
+      &-bookmark {
+        background: transparent;
+        color: var(--grey-btn);
+        font-size: 1.5rem;
+        transition: .3s ease-in;
+
+        &:hover {
+          color: var(--green);
+          transition: .3s ease-out;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    border: 3px solid red;
+    transition: all .3s ease-in-out;
+
+    .products__item__vendor {
+      display: block;
+    }
+  }
+}

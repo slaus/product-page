@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "vendor": "488788",
+    "img": "https://loremflickr.com/700/700",
+    "discount": 14,
+    "best": true,
+    "hit": false,
+    "subtitle": "Для справжніх поціновувачив вина",
+    "title": "Винна шафа Philco PW18F 65см/18 пляшок",
+    "reviews": 10,
+    "price": 4660,
+    "cash": 56,
+    "old": 4999
+  },
+  {
+    "id": 2,
+    "vendor": "488796",
+    "img": "https://loremflickr.com/700/700",
+    "discount": 24,
+    "best": false,
+    "hit": true,
+    "title": "Пральна машина Electrolux EW6S4R06W",
+    "reviews": 6,
+    "price": 6868,
+    "cash": 69,
+    "old": 8999
+  },
+  {
+    "id": 3,
+    "vendor": "488352",
+    "img": "https://loremflickr.com/700/700",
+    "discount": 18,
+    "best": false,
+    "hit": true,
+    "subtitle": "Знижки до 26% на пилососи Thomas",
+    "title": "Пилосос Thomas MULTI CYCLONE PRO 14",
+    "reviews": 59,
+    "price": 3299,
+    "cash": 33,
+    "old": 3999
+  }
+]
